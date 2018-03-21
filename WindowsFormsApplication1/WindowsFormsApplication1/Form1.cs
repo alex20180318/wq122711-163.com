@@ -15,5 +15,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.button1.Text = "更改";
+        }
     }
 }
